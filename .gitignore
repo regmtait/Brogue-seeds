@@ -1,5 +1,4 @@
 *.xml
-*.xml
 *.psd
 _site/
-_glynn.yml
+/full-size-images/
