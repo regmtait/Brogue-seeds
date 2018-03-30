@@ -44,7 +44,7 @@ gallery:
   title: Mangrove
   description: Mangrove dryads are a liability
 - image: oldfriend.png
-  title: Od friend
+  title: Old friend
   description: An old friend emerges
 - image: rainbow-ring.png
   title: Rainbow ring
