@@ -1,0 +1,56 @@
+/*------------------------------------*\
+    #SEEDS
+\*------------------------------------*/
+
+.seed-title span::before {
+	content: "#";
+	color: var(--color-grey);
+	font-size: normal;
+	font-size: 1.5rem;
+}
+
+.seed-title {
+	font-size: 1.5rem;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.seed-title-large {
+	font-size: 2rem;
+	margin-top: 1rem;
+}
+
+.seed-card {
+	margin-bottom: 4rem;
+	display: block;
+	z-index: 50;
+	transition: all 0.5s ease-out;
+}
+
+.seed-title-animate {
+	animation: color-change 10s infinite;
+}
+
+.seed-thumb {
+	border-radius: 5px;
+}
+
+.seed-card p {
+	color: #fff;
+}
+
+.seed-card:hover {
+	z-index: 1000;
+	transform: scale(1.1);
+}
+
+.card-categories {
+	font-size: 0.75rem;
+}
+
+.seed-categories {
+	color: var(--color-grey);
+	.joiner {
+		color: var(--color-yellow);
+	}
+}

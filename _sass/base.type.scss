@@ -1,0 +1,169 @@
+/*------------------------------------*\
+    #TYPE + resets
+\*------------------------------------*/
+
+html {
+ font-size: 16px;
+  background-color: var(--color-bg);
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'Space Mono', monospace;
+}
+
+body {
+  color: var(--color-main);
+  line-height: 1.4;
+  margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  line-height: 1.25;
+  clear: both;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+  line-height: 1.2;
+  color: var(--color-grey);
+  font-weight: normal;
+}
+
+h3 {font-size: 1rem; margin-top: 3rem; margin-bottom: 2rem;}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+p strong, li strong {
+  font-weight: bold;
+}
+
+ul, ol, article {
+  margin-bottom: 1rem;
+}
+
+abbr {
+  text-decoration: none;
+  border-bottom-width: 0;
+  line-height: 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+
+pre {
+  overflow: auto;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  border: none;
+  border-top: 1px solid var(--color-grey);
+}
+
+strike {
+  opacity: 0.8;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+small {
+  font-size: 80%;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+ul, p {
+  margin-bottom: 1rem;
+}
+
+::-moz-selection {
+  color: var(--color-yellow);
+  background: #000;
+}
+
+::selection {
+  color: var(--color-yellow);
+  background: #000;
+} 
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+.article-summary {
+  font-size: 1.25rem;
+  font-weight: bold;
+  max-width: auto;
+  line-height: 1.4;
+  color: var(--color-grey);
+}
+
+.gallery-title {
+  margin-top: 0;
+  text-align: center;
+}
+
+

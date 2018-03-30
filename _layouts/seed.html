@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="wrapper">
+
+<article class="post">
+
+<header class="post-header">
+<h1 class="seed-title seed-title-large seed-title-animate"><span>{{ page.title }}</span></h1>
+</header>
+
+<div class="post-content">
+
+{% if page.summary %}<p class="article-summary">{{ page.summary }}</p>{% endif %}
+
+{{ content }}
+
+<figure>
+<p><img src="/seed-screens/{{ page.title }}.png" alt="{{ page.title }}" title="{{ page.title }} Screenshot" /></p>
+<p class="caption">{{ page.title }}: {{ page.categories | join: ' • ' }}</p>
+</figure>
+
+</div>
+
+<a class="back-button" href="/#home-seed-listing" title="More seeds">&larr; Other seeds</a>
+
+</article>
+
+</div>

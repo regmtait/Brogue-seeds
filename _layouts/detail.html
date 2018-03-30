@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="wrapper">
+
+{% if gallery.description %}<p>{{ gallery.description }}</p>{% endif %}
+
+<figure>
+<p><img src="/screenshots/{{ gallery.image }}" alt="{{ gallery.title }}" title="{{ page.title }} Screenshot" /></p>
+<p class="caption">{{ gallery.title }}</p>
+</figure>
+
+</div>

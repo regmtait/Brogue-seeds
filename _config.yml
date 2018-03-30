@@ -1,0 +1,15 @@
+# Site settings
+title: Brogue Roguelike Dungeon Seeds from Reg Tait
+description: Just a collection of fun Dungeon seeds for Brogue, a Roguelike by Brian Walker. I like Brogue.
+baseurl: ""
+thumb-path: thumbs
+theme-path: theme-assets # path to general assets
+sass:
+  sass_dir: _sass
+  style: compressed
+collections:
+  seed:
+    output: true
+    permalink: /seed/:path/
+# Build settings
+markdown: kramdown

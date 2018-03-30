@@ -1,0 +1,38 @@
+/*------------------------------------*\
+    #LINKS
+\*------------------------------------*/
+
+a {
+  background-color: transparent;
+}
+
+a, a:visited {
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+a:active, a:hover {
+  outline: 0;
+}
+
+a:focus {outline:none;}
+
+.read-more {
+	display: block;
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	font-weight: bold;
+}
+
+p + .read-more {
+	border-top: 1px var(--border-color);
+	margin: 0;
+	padding-top: 1rem;
+}
+
+.read-more-button, .back-button {
+	font-weight: 900;
+	margin-top: 3rem;
+	display: block;
+	margin-bottom: 3rem;
+}

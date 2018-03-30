@@ -1,0 +1,12 @@
+<header class="site-header cf">
+
+<div class="wrapper">
+	<nav class="site-nav">
+		<a class="home-link" href="{{ site.baseurl }}/" title="{{ site.title }} home page"><span class="">🌱</span> Brogue Seeds</a>
+		<ul>{% for page in site.pages %}{% if page.title %}{% unless page.exclude_from_nav %}
+			<li class="{{ page.nav-class }}"><a title="{{ page.title }}" class="page-link" href="{{ page.url | prepend: site.baseurl }}">{% if page.nav-title %}{{ page.nav-title }}{% else %}{{ page.title }}{% endif %}</a></li>{% endunless %}{% endif %}{% endfor %}
+		</ul>
+	</nav>
+</div>
+
+</header>
