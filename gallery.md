@@ -3,7 +3,7 @@
 layout: gallery
 title: Gallery
 description:
-keywords: Brogue gallery, Brogue screenshots
+keywords: brogue, gallery, screenshots, screengrabs
 excerpt: Gratitous screenshots. Mainly gas and explosions.
 exclude_from_nav:
 gallery:

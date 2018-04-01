@@ -22,7 +22,7 @@
 -->
 
   <meta name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}{% endif %}">
-  <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
 
   <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
   <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700" rel="stylesheet"> 

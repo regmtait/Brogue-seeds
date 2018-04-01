@@ -1,6 +1,7 @@
 # Site settings
 title: Brogue Roguelike Dungeon Seeds from Reg Tait
 description: Just a collection of fun Dungeon seeds for Brogue, a Roguelike by Brian Walker. I like Brogue.
+keywords: brogue, roguelike, seeds, levels, fun, game
 baseurl: ""
 thumb-path: thumbs
 theme-path: theme-assets # path to general assets
