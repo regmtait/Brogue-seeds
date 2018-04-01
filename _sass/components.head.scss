@@ -83,17 +83,17 @@ text-shadow: 0 0 50px #ffff00;
 
 0% {
     -webkit-transform: translate(0, 0px) rotate(2deg);
-    //transform: translate(0, 0px) rotate(2deg);  
+    transform: translate(0, 0px) rotate(2deg);  
 }
 
 50% {
     -webkit-transform: translate(0, -10px) rotate(-2deg) scale(1.2);
-    //transform: translate(0, 10px) rotate(-2deg) scale(1.2);
+    transform: translate(0, -10px) rotate(-2deg) scale(1.2);
 }
 
 100% {
     -webkit-transform: translate(0, 0px) rotate(2deg);
-    //transform: translate(0, 0px) rotate(2deg);
+    transform: translate(0, 0px) rotate(2deg);
 }
 
 }
