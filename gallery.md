@@ -4,7 +4,7 @@ layout: gallery
 title: Gallery
 description:
 keywords: brogue, gallery, screenshots, screengrabs
-excerpt: Gratitous screenshots. Mainly gas and explosions.
+excerpt: Gratuitous screenshots 👍
 exclude_from_nav:
 gallery:
 - image: dragonslayer.png
