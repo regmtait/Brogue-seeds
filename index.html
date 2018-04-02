@@ -46,17 +46,15 @@ nav-class: home
 <div class="wrapper">
 
 <h2>The Seeds you need. Click for spoilers.</h2>
-<div class="grid">
+<div class="seed-container">
 {% assign items = site.seed | sort: 'date' %}
 {% for seed in site.seed limit:200 %}
-	<div class="grid__col grid__col--1-of-3 grid__col--m-1-of-2  grid__col--s-1-of-1">
 		<a class="seed-card" data-wenk="🌱 Spoilers!" data-wenk-pos="middle" title="More about seed #{{ seed.title }}" href="{{ seed.url }}">
 		<img src="/seed-thumbs/thumb-{{ seed.title }}.png" alt="Seed #{{ seed.title }}" class="seed-thumb"/>
 		<h3 class="cf seed-title seed-title-animate"><span>{{ seed.title }}</span></h3>
 		 <!-- {{ seed.summary }} -->
 		<div class="seed-categories card-categories">{{ seed.categories | join: ' <span class="joiner">•</span> ' }}</div>
 	</a>
-	</div>
 {% endfor %}
 </div>
 
