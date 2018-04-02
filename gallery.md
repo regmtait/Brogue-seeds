@@ -11,7 +11,7 @@ gallery:
   title: Dragonslayer
   description: I killed a dragon
 - image: captive-horrors.png
-  title: Captive Horrors
+  title: Captive horrors
   description:
 - image: ectoplasm.png
   title: Ectoplasm!
@@ -27,7 +27,7 @@ gallery:
   description: A dangerous build up of gas
 - image: healthyhorror.png
   title: Healthy horror
-  description: My Tentacled horror looks better
+  description: My tentacled horror looks better
 - image: incineration.png
   title: Incineration
   description: Boiling the lake
@@ -50,7 +50,7 @@ gallery:
   title: Rainbow ring
   description:
 - image: steam-dead.png
-  title: Mangrove trouble
+  title: A mangrove dryad did this
   description:
 - image: steam.png
   title: Scalding steam
