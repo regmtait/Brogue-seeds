@@ -41,7 +41,7 @@ gallery:
   title: A kind of magic
   description: Lots of magical stuff here
 - image: mangrove.png
-  title: Mangrove
+  title: Mangrove liability
   description: Mangrove dryads are a liability
 - image: oldfriend.png
   title: Old friend
@@ -72,8 +72,8 @@ permalink: /gallery/
 {% assign items = page.gallery | sort: 'date' %}
 {% for gallery in page.gallery limit:200 %}
     <div class="grid__col grid__col--1-of-3 grid__col--m-1-of-2  grid__col--s-1-of-1">
-    <a class="seed-card" data-wenk="Click to enlarge" data-wenk-pos="bottom" title="{{ gallery.title }}: full size" href="#{{ gallery.image }}">
-        <img src="/screenshot-thumbs/thumb-{{ gallery.image }}" alt="{{ gallery.title }}" class="seed-thumb"/>
+    <a class="seed-card" data-wenk="Click to enlarge" data-wenk-pos="bottom" title="{% if gallery.description %}{{ gallery.description }}{% else %}{{ gallery.title }}{% endif %}: full size" href="#{{ gallery.image }}">
+        <img src="/screenshot-thumbs/thumb-{{ gallery.image }}" alt="{% if gallery.description %}{{ gallery.description }}{% else %}{{ gallery.title }}{% endif %}" class="seed-thumb"/>
         <h3 class="cf gallery-title seed-title-animate">{{ gallery.title }}</h3>
     </a>
     </div>
