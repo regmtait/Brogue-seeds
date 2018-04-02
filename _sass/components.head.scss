@@ -105,8 +105,8 @@ text-shadow: 0 0 50px #ffff00;
     animation: shoot 40s ease-out infinite;
     animation-name: shoot, fade;
     
-    @for $i from 0 to 400 {
-        $t: (1 + .01*random(100))*2s;
+    @for $i from 0 to 200 {
+        $t: (1 + .01*random(100))*3s;
         
         &:nth-child(#{$i + 1}) {
             transform: translate(random(100)*0.7vw, 
